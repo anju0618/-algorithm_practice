@@ -1,0 +1,26 @@
+lc132_palindrome_partitioning_ii
+Based on: LeetCode 132. Palindrome Partitioning II
+
+Assignment (paraphrased)
+Given a string s, partition it so that every substring is a palindrome.
+Return the minimum number of cuts needed.
+
+Function signature
+def min_palindrome_cuts(s: str) -> int:
+
+Examples
+Input
+min_palindrome_cuts("aab")
+Output
+1
+Input
+min_palindrome_cuts("a")
+Output
+0
+Input
+min_palindrome_cuts("ab")
+Output
+1
+
+Used by (exam problems based on this): exam4/level2/py_palindrome_partitioner
+(identical algorithm).

@@ -1,0 +1,48 @@
+py_bracket_validator
+
+Assignment
+Write a function that checks if the brackets in a string are valid.
+A string is valid if every opening bracket has a matching closing
+bracket in the correct order. Allowed brackets: (), [], {}. Any other
+character is ignored.
+
+Function signature
+def bracket_validator(s: str) -> bool:
+
+Examples
+Input
+bracket_validator("()")
+Output
+True
+Input
+bracket_validator("()[]{}")
+Output
+True
+Input
+bracket_validator("(]")
+Output
+False
+Input
+bracket_validator("([)]")
+Output
+False
+Input
+bracket_validator("{[]}")
+Output
+True
+Input
+bracket_validator("hello(world)")
+Output
+True
+Input
+bracket_validator("((())")
+Output
+False
+Input
+bracket_validator("")
+Output
+True
+
+Similar to (probably): LeetCode 20. Valid Parentheses (identical
+problem).
+Reference: question/leetcode/lc020_valid_parentheses.txt

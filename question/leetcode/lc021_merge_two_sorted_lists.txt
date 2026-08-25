@@ -1,0 +1,27 @@
+lc021_merge_two_sorted_lists
+Based on: LeetCode 21. Merge Two Sorted Lists
+
+Assignment (paraphrased; simplified here to plain lists instead of a
+linked list)
+Given two sorted lists of integers, merge them into one sorted list and
+return it.
+
+Function signature
+def merge_two_sorted_lists(list1: list[int], list2: list[int]) -> list[int]:
+
+Examples
+Input
+merge_two_sorted_lists([1,2,4], [1,3,4])
+Output
+[1,1,2,3,4,4]
+Input
+merge_two_sorted_lists([], [])
+Output
+[]
+Input
+merge_two_sorted_lists([], [0])
+Output
+[0]
+
+Used by (exam problems based on this): exam3/level4/py_shadow_merge
+(identical algorithm, two-pointer merge).

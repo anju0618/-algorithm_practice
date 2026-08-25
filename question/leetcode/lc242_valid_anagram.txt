@@ -1,0 +1,24 @@
+lc242_valid_anagram
+Based on: LeetCode 242. Valid Anagram
+
+Assignment (paraphrased)
+Given two strings, return whether the second is an anagram of the
+first (same characters, same counts).
+
+Function signature
+def is_anagram(s: str, t: str) -> bool:
+
+Examples
+Input
+is_anagram("anagram", "nagaram")
+Output
+True
+Input
+is_anagram("rat", "car")
+Output
+False
+
+Used by (exam problems based on this):
+exam3/level4/py_anagram (adds case/space normalization on top of this),
+exam3/level4/py_string_permutation_checker (this exact check, case
+sensitive).

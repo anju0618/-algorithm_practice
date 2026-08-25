@@ -1,0 +1,25 @@
+lc349_intersection_of_two_arrays
+Based on: LeetCode 349. Intersection of Two Arrays
+
+Assignment (paraphrased)
+Given two integer arrays, return an array of their intersection. Each
+element in the result must be unique.
+
+Function signature
+def intersection(nums1: list[int], nums2: list[int]) -> list[int]:
+
+Examples
+Input
+intersection([1,2,2,1], [2,2])
+Output
+[2]
+Input
+intersection([4,9,5], [9,4,9,8,4])
+Output
+[4,9] (order not guaranteed on real LeetCode; here returned in the
+order elements first appear in nums1)
+
+Used by (exam problems based on this):
+exam3/level1/py_inter (character-level version, string output),
+exam4/level1/py_list_intersection_finder (generalized to more than two
+lists, with sorted output).

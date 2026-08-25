@@ -1,0 +1,37 @@
+py_string_sculptor
+
+Assignment
+Write a function that transforms a string by alternating the case of
+alphabetic characters only. Non-alphabetic characters remain unchanged
+and are NOT counted in the alternation index. The first alphabetic
+character should be lowercase, the second uppercase, etc. Spaces reset
+the alternation (the next alpha character after a space is lowercase
+again).
+
+Function signature
+def string_sculptor(text: str) -> str:
+
+Examples
+Input
+string_sculptor("hello")
+Output
+"hElLo"
+Input
+string_sculptor("Hello World")
+Output
+"hElLo wOrLd"
+Input
+string_sculptor("abc123def")
+Output
+"aBc123DeF"
+Input
+string_sculptor("Python3.9!")
+Output
+"pYtHoN3.9!"
+Input
+string_sculptor("")
+Output
+""
+
+Similar to (probably): No clear direct LeetCode equivalent found; this is
+a custom character-by-character formatting exercise.

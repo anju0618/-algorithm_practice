@@ -1,0 +1,43 @@
+py_cryptic_sorter
+
+Assignment
+Write a function that sorts a list of strings according to multiple criteria:
+1. Primary sort: by string length (shortest first)
+2. Secondary sort: ASCII order, but letters are compared case-insensitively
+   (for strings of the same length)
+3. Tertiary sort: by number of (lowercase) vowels, ascending (for same length
+   and case-insensitively equal strings)
+4. Equal strings keep their original relative order (stable sort).
+
+Function signature
+def cryptic_sorter(strings: list[str]) -> list[str]:
+
+Examples
+Input
+cryptic_sorter(["apple","cat","banana","dog","elephant"])
+Output
+["cat","dog","apple","banana","elephant"]
+
+Input
+cryptic_sorter(["aaa","bbb","AAA","BBB"])
+Output
+["AAA","aaa","BBB","bbb"]
+
+Input
+cryptic_sorter(["hello","world","hi","test"])
+Output
+["hi","test","hello","world"]
+
+Input
+cryptic_sorter([])
+Output
+[]
+
+Input
+cryptic_sorter([""])
+Output
+[""]
+
+Similar to (probably): No clear direct LeetCode equivalent found; closest inspiration
+is the general "custom multi-key sort" pattern, e.g. LeetCode 179. Largest Number
+(sorting with a custom comparator).

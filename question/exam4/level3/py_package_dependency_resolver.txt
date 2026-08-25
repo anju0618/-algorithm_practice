@@ -1,0 +1,46 @@
+py_package_dependency_resolver
+
+Assignment
+Write a function that determines a valid package installation order by
+resolving dependencies, using topological sorting (Kahn's algorithm).
+
+- Return packages in installation order (dependencies first).
+- Return [] if no valid order exists (circular dependencies).
+- Ignore references to packages not present as keys in the input dict.
+- Deterministic output: when multiple packages are ready at the same
+  time, process them alphabetically. Specifically, process every
+  package that becomes dependency-free at the same "wave" (BFS depth)
+  together, alphabetically, before moving on to the next wave -- a
+  package from a later wave must never jump ahead of one from an
+  earlier wave.
+
+Function signature
+def package_dependency_resolver(packages: dict[str, list[str]]) -> list[str]:
+
+Examples
+Input
+package_dependency_resolver({"app": ["database"], "database": ["driver"], "driver": []})
+Output
+["driver", "database", "app"]
+Input
+package_dependency_resolver({"A": [], "B": ["A"], "C": ["A", "B"]})
+Output
+["A", "B", "C"]
+Input
+package_dependency_resolver({})
+Output
+[]
+Input
+package_dependency_resolver({"X": ["Y"], "Y": ["X"]})
+Output
+[]
+Input
+package_dependency_resolver({"web": [], "api": [], "frontend": ["web"], "backend": ["api"]})
+Output
+["api", "web", "backend", "frontend"]
+
+Similar to (probably): LeetCode 210. Course Schedule II (Kahn's
+algorithm topological sort); the wave-based alphabetical tie-break on
+top of it is similar in spirit to LeetCode 1203. Sort Items by Groups
+Respecting Dependencies.
+Reference: question/leetcode/lc210_course_schedule_ii.txt

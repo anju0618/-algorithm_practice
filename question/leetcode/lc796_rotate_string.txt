@@ -1,0 +1,22 @@
+lc796_rotate_string
+Based on: LeetCode 796. Rotate String
+
+Assignment (paraphrased)
+Given two strings s and goal, return True if and only if s can become
+goal after some number of shifts (rotations) of s.
+
+Function signature (adapted here to arrays, matching the exam version)
+def rotate_string(s: str, goal: str) -> bool:
+
+Examples
+Input
+rotate_string("abcde", "cdeab")
+Output
+True
+Input
+rotate_string("abcde", "abced")
+Output
+False
+
+Used by (exam problems based on this): exam4/level1/py_array_rotation_detector
+(same idea applied to arrays instead of strings).

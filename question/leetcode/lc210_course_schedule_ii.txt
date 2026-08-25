@@ -1,0 +1,26 @@
+lc210_course_schedule_ii
+Based on: LeetCode 210. Course Schedule II
+
+Assignment (paraphrased)
+There are n courses labeled 0..n-1. Some courses have prerequisites,
+given as a list of [course, prerequisite] pairs. Return one valid order
+to take all courses, or an empty list if it is impossible (a cycle
+exists).
+
+Function signature (adapted here to use names instead of numeric ids,
+matching the exam version)
+def course_order(courses: dict[str, list[str]]) -> list[str]:
+
+Examples
+Input
+course_order({"app": ["database"], "database": ["driver"], "driver": []})
+Output
+["driver", "database", "app"]
+Input
+course_order({"X": ["Y"], "Y": ["X"]})
+Output
+[]
+
+Used by (exam problems based on this): exam4/level3/py_package_dependency_resolver
+(same Kahn's-algorithm topological sort; the exam version adds a
+wave-based alphabetical tie-break for deterministic output).

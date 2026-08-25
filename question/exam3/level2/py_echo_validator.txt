@@ -1,0 +1,44 @@
+py_echo_validator
+
+Assignment
+Write a function that checks if a string is a palindrome, ignoring
+spaces/punctuation and case. Only alphabetic characters are considered
+for the comparison.
+
+Function signature
+def echo_validator(text: str) -> bool:
+
+Examples
+Input
+echo_validator("racecar")
+Output
+True
+Input
+echo_validator("A man a plan a canal Panama")
+Output
+True
+Input
+echo_validator("race a car")
+Output
+False
+Input
+echo_validator("Was it a car or a cat I saw")
+Output
+True
+Input
+echo_validator("hello")
+Output
+False
+Input
+echo_validator("Madam Im Adam")
+Output
+True
+Input
+echo_validator("")
+Output
+False
+
+Similar to (probably): LeetCode 125. Valid Palindrome (exact same idea:
+lowercase + keep only alphanumeric/alphabetic characters, then check
+palindrome).
+Reference: question/leetcode/lc125_valid_palindrome.txt

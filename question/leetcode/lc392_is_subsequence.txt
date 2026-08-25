@@ -1,0 +1,23 @@
+lc392_is_subsequence
+Based on: LeetCode 392. Is Subsequence
+
+Assignment (paraphrased)
+Given two strings s and t, return whether s is a subsequence of t (the
+characters of s appear in t in the same order, not necessarily
+consecutively).
+
+Function signature
+def is_subsequence(s: str, t: str) -> bool:
+
+Examples
+Input
+is_subsequence("abc", "ahbgdc")
+Output
+True
+Input
+is_subsequence("axc", "ahbgdc")
+Output
+False
+
+Used by (exam problems based on this): exam3/level3/py_hidenp (identical
+algorithm, argument order reversed: hidenp(small, big)).

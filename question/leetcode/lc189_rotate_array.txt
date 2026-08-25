@@ -1,0 +1,22 @@
+lc189_rotate_array
+Based on: LeetCode 189. Rotate Array
+
+Assignment (paraphrased)
+Given an array, rotate it to the right by k steps, where k is
+non-negative.
+
+Function signature
+def rotate_array(nums: list[int], k: int) -> list[int]:
+
+Examples
+Input
+rotate_array([1,2,3,4,5,6,7], 3)
+Output
+[5,6,7,1,2,3,4]
+Input
+rotate_array([-1,-100,3,99], 2)
+Output
+[3,99,-1,-100]
+
+Used by (exam problems based on this): exam3/level5/py_twist_sequence
+(identical algorithm).

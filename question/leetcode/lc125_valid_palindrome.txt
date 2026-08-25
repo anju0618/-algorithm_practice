@@ -1,0 +1,28 @@
+lc125_valid_palindrome
+Based on: LeetCode 125. Valid Palindrome
+
+Assignment (paraphrased)
+Given a string, determine if it is a palindrome after converting all
+uppercase letters to lowercase and removing all non-alphanumeric
+characters.
+
+Function signature
+def is_valid_palindrome(s: str) -> bool:
+
+Examples
+Input
+is_valid_palindrome("A man, a plan, a canal: Panama")
+Output
+True
+Input
+is_valid_palindrome("race a car")
+Output
+False
+Input
+is_valid_palindrome("")
+Output
+True
+
+Used by (exam problems based on this): exam3/level2/py_echo_validator
+(same idea, restricted to alphabetic characters only and returning
+False on an empty string instead of True).

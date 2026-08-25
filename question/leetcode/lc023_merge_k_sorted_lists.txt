@@ -1,0 +1,27 @@
+lc023_merge_k_sorted_lists
+Based on: LeetCode 23. Merge k Sorted Lists
+
+Assignment (paraphrased; simplified here to plain lists instead of
+linked lists)
+Given a list of k sorted integer lists, merge them all into one sorted
+list and return it.
+
+Function signature
+def merge_k_sorted_lists(lists: list[list[int]]) -> list[int]:
+
+Examples
+Input
+merge_k_sorted_lists([[1,4,5],[1,3,4],[2,6]])
+Output
+[1,1,2,3,4,4,5,6]
+Input
+merge_k_sorted_lists([])
+Output
+[]
+Input
+merge_k_sorted_lists([[]])
+Output
+[]
+
+Used by (exam problems based on this): exam4/level2/py_merge_sorted_list
+(identical algorithm).
