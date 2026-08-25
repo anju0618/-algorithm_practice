@@ -1,0 +1,29 @@
+lc269_alien_dictionary
+Based on: LeetCode 269. Alien Dictionary (premium-only problem; this is
+a paraphrase from general knowledge, not fetched from LeetCode's API
+since the official text is behind a paywall)
+
+Assignment (paraphrased)
+An alien language uses the English alphabet but with an unknown letter
+order. Given a list of words already sorted lexicographically
+according to that unknown order, derive one valid ordering of the
+letters that appear. Return "" if the input is inconsistent (no valid
+order exists, e.g. a cycle, or a longer word appearing before its own
+prefix).
+
+Function signature
+def alien_order(words: list[str]) -> str:
+
+Examples
+Input
+alien_order(["wrt","wrf","er","ett","rftt"])
+Output
+"wertf"
+Input
+alien_order(["z","x"])
+Output
+"zx"
+Input
+alien_order(["z","x","z"])
+Output
+""
