@@ -1,0 +1,22 @@
+lc746_min_cost_climbing_stairs
+Based on: LeetCode 746. Min Cost Climbing Stairs
+
+Assignment (paraphrased)
+Given cost[i], the cost to step on stair i (you may then climb 1 or 2
+steps), and starting from either step 0 or step 1, return the minimum
+total cost to reach just past the top of the array.
+
+Function signature
+def min_cost_climbing_stairs(cost: list[int]) -> int:
+
+Examples
+Input
+min_cost_climbing_stairs([10,15,20])
+Output
+15
+Input
+min_cost_climbing_stairs([1,100,1,1,1,100,1,1,100,1])
+Output
+6
+
+NeetCode 150 category: 1-D Dynamic Programming

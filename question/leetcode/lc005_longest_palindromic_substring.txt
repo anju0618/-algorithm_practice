@@ -1,0 +1,21 @@
+lc005_longest_palindromic_substring
+Based on: LeetCode 5. Longest Palindromic Substring
+
+Assignment (paraphrased)
+Given a string s, return the longest substring of s that is a
+palindrome.
+
+Function signature
+def longest_palindrome(s: str) -> str:
+
+Examples
+Input
+longest_palindrome("babad")
+Output
+"bab" (or "aba", both are valid)
+Input
+longest_palindrome("cbbd")
+Output
+"bb"
+
+NeetCode 150 category: 1-D Dynamic Programming

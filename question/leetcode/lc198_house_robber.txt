@@ -1,0 +1,22 @@
+lc198_house_robber
+Based on: LeetCode 198. House Robber
+
+Assignment (paraphrased)
+Houses are arranged in a line, each with a given amount of money. You
+cannot rob two adjacent houses (it triggers an alarm). Return the
+maximum amount you can rob.
+
+Function signature
+def rob(nums: list[int]) -> int:
+
+Examples
+Input
+rob([1,2,3,1])
+Output
+4
+Input
+rob([2,7,9,3,1])
+Output
+12
+
+NeetCode 150 category: 1-D Dynamic Programming

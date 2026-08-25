@@ -1,0 +1,26 @@
+lc213_house_robber_ii
+Based on: LeetCode 213. House Robber II
+
+Assignment (paraphrased)
+Same as House Robber, but the houses are arranged in a circle (the
+first and last houses are adjacent). Return the maximum amount you can
+rob without robbing two adjacent houses.
+
+Function signature
+def rob2(nums: list[int]) -> int:
+
+Examples
+Input
+rob2([2,3,2])
+Output
+3
+Input
+rob2([1,2,3,1])
+Output
+4
+Input
+rob2([1,2,3])
+Output
+3
+
+NeetCode 150 category: 1-D Dynamic Programming

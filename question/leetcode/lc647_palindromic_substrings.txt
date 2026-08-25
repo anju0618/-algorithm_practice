@@ -1,0 +1,22 @@
+lc647_palindromic_substrings
+Based on: LeetCode 647. Palindromic Substrings
+
+Assignment (paraphrased)
+Given a string s, return the number of palindromic substrings it
+contains (counting different positions of the same characters
+separately).
+
+Function signature
+def count_substrings(s: str) -> int:
+
+Examples
+Input
+count_substrings("abc")
+Output
+3
+Input
+count_substrings("aaa")
+Output
+6
+
+NeetCode 150 category: 1-D Dynamic Programming
