@@ -1,0 +1,23 @@
+lc202_happy_number
+Based on: LeetCode 202. Happy Number
+
+Assignment (paraphrased)
+A happy number: repeatedly replace it with the sum of the squares of
+its digits; if this process reaches 1, the number is happy. If it
+loops forever without reaching 1, it is not happy. Return whether n is
+happy.
+
+Function signature
+def is_happy(n: int) -> bool:
+
+Examples
+Input
+is_happy(19)
+Output
+True
+Input
+is_happy(2)
+Output
+False
+
+NeetCode 150 category: Math & Geometry
