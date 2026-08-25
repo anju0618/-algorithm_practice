@@ -1,0 +1,25 @@
+lc124_binary_tree_maximum_path_sum
+Based on: LeetCode 124. Binary Tree Maximum Path Sum
+
+Assignment (paraphrased)
+A path is any sequence of nodes connected by edges, each node used at
+most once, not required to pass through the root. Given a binary
+tree's root, return the maximum possible sum of node values along any
+non-empty path.
+
+Class/function signature
+class TreeNode:
+    def __init__(self, val=0, left=None, right=None): ...
+def max_path_sum(root: TreeNode) -> int:
+
+Examples
+Input
+max_path_sum(tree from [1,2,3])
+Output
+6
+Input
+max_path_sum(tree from [-10,9,20,None,None,15,7])
+Output
+42
+
+NeetCode 150 category: Trees

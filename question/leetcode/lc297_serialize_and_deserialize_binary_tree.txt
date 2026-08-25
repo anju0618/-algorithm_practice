@@ -1,0 +1,25 @@
+lc297_serialize_and_deserialize_binary_tree
+Based on: LeetCode 297. Serialize and Deserialize Binary Tree
+
+Assignment (paraphrased)
+Design an algorithm to serialize a binary tree into a string and
+deserialize that string back into a tree with the same structure and
+values. Any encoding scheme is allowed as long as round-tripping works.
+
+Class/function signature
+class TreeNode:
+    def __init__(self, val=0, left=None, right=None): ...
+def serialize(root: TreeNode | None) -> str:
+def deserialize(data: str) -> TreeNode | None:
+
+Examples
+Input
+deserialize(serialize(tree from [1,2,3,None,None,4,5])) then read level-order
+Output
+[1,2,3,None,None,4,5]
+Input
+deserialize(serialize(tree from [])) then read level-order
+Output
+[]
+
+NeetCode 150 category: Trees
