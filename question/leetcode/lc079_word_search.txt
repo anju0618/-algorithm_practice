@@ -1,0 +1,22 @@
+lc079_word_search
+Based on: LeetCode 79. Word Search
+
+Assignment (paraphrased)
+Given an m x n grid of characters and a word, return True if the word
+can be formed by a path of horizontally/vertically adjacent cells,
+without reusing the same cell twice.
+
+Function signature
+def exist(board: list[list[str]], word: str) -> bool:
+
+Examples
+Input
+exist([["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], "ABCCED")
+Output
+True
+Input
+exist([["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], "ABCB")
+Output
+False
+
+NeetCode 150 category: Backtracking

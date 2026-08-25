@@ -1,0 +1,23 @@
+lc051_n_queens
+Based on: LeetCode 51. N-Queens
+
+Assignment (paraphrased)
+Place n queens on an n x n chessboard so that no two queens attack
+each other (same row, column, or diagonal). Return all distinct
+solutions; each solution is a list of n strings, one per row, using
+'Q' for a queen and '.' for empty. Order doesn't matter.
+
+Function signature
+def solve_n_queens(n: int) -> list[list[str]]:
+
+Examples
+Input
+solve_n_queens(4)
+Output (order doesn't matter)
+[[".Q..","...Q","Q...","..Q."],["..Q.","Q...","...Q",".Q.."]]
+Input
+solve_n_queens(1)
+Output
+[["Q"]]
+
+NeetCode 150 category: Backtracking

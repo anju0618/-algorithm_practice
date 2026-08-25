@@ -1,0 +1,22 @@
+lc131_palindrome_partitioning
+Based on: LeetCode 131. Palindrome Partitioning
+
+Assignment (paraphrased)
+Given a string s, partition it so that every substring in the
+partition is a palindrome. Return all possible partitions (each as a
+list of substrings). Order doesn't matter.
+
+Function signature
+def partition(s: str) -> list[list[str]]:
+
+Examples
+Input
+partition("aab")
+Output (order doesn't matter)
+[["a","a","b"],["aa","b"]]
+Input
+partition("a")
+Output
+[["a"]]
+
+NeetCode 150 category: Backtracking

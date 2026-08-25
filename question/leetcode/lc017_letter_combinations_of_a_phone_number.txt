@@ -1,0 +1,27 @@
+lc017_letter_combinations_of_a_phone_number
+Based on: LeetCode 17. Letter Combinations of a Phone Number
+
+Assignment (paraphrased)
+Given a string of digits 2-9, return all possible letter combinations
+using the classic telephone keypad mapping (2=abc, 3=def, ..., 9=wxyz;
+1 maps to nothing). Order doesn't matter. Empty input gives an empty
+list.
+
+Function signature
+def letter_combinations(digits: str) -> list[str]:
+
+Examples
+Input
+letter_combinations("23")
+Output (order doesn't matter)
+["ad","ae","af","bd","be","bf","cd","ce","cf"]
+Input
+letter_combinations("2")
+Output
+["a","b","c"]
+Input
+letter_combinations("")
+Output
+[]
+
+NeetCode 150 category: Backtracking

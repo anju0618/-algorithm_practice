@@ -1,0 +1,21 @@
+lc022_generate_parentheses
+Based on: LeetCode 22. Generate Parentheses
+
+Assignment (paraphrased)
+Given n pairs of parentheses, generate all combinations of
+well-formed (balanced, correctly nested) parentheses strings.
+
+Function signature
+def generate_parenthesis(n: int) -> list[str]:
+
+Examples
+Input
+generate_parenthesis(3)
+Output (order doesn't matter)
+["((()))","(()())","(())()","()(())","()()()"]
+Input
+generate_parenthesis(1)
+Output
+["()"]
+
+NeetCode 150 category: Backtracking
