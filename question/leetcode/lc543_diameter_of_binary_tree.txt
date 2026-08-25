@@ -1,0 +1,24 @@
+lc543_diameter_of_binary_tree
+Based on: LeetCode 543. Diameter of Binary Tree
+
+Assignment (paraphrased)
+Given the root of a binary tree, return the length (number of edges)
+of the longest path between any two nodes. The path may or may not
+pass through the root.
+
+Class/function signature
+class TreeNode:
+    def __init__(self, val=0, left=None, right=None): ...
+def diameter_of_binary_tree(root: TreeNode | None) -> int:
+
+Examples
+Input
+diameter_of_binary_tree(tree from [1,2,3,4,5])
+Output
+3
+Input
+diameter_of_binary_tree(tree from [1,2])
+Output
+1
+
+NeetCode 150 category: Trees

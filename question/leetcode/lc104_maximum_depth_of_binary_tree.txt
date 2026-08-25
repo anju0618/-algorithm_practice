@@ -1,0 +1,23 @@
+lc104_maximum_depth_of_binary_tree
+Based on: LeetCode 104. Maximum Depth of Binary Tree
+
+Assignment (paraphrased)
+Given the root of a binary tree, return its maximum depth (number of
+nodes along the longest path from root to a leaf).
+
+Class/function signature
+class TreeNode:
+    def __init__(self, val=0, left=None, right=None): ...
+def max_depth(root: TreeNode | None) -> int:
+
+Examples
+Input
+max_depth(tree from [3,9,20,None,None,15,7])
+Output
+3
+Input
+max_depth(tree from [1,None,2])
+Output
+2
+
+NeetCode 150 category: Trees

@@ -1,0 +1,25 @@
+lc572_subtree_of_another_tree
+Based on: LeetCode 572. Subtree of Another Tree
+
+Assignment (paraphrased)
+Given the roots of two binary trees root and sub_root, return True if
+there is a subtree of root (a node and all its descendants) that is
+structurally identical to sub_root with matching values. A tree counts
+as a subtree of itself.
+
+Class/function signature
+class TreeNode:
+    def __init__(self, val=0, left=None, right=None): ...
+def is_subtree(root: TreeNode | None, sub_root: TreeNode | None) -> bool:
+
+Examples
+Input
+is_subtree(tree from [3,4,5,1,2], tree from [4,1,2])
+Output
+True
+Input
+is_subtree(tree from [3,4,5,1,2,None,None,None,None,0], tree from [4,1,2])
+Output
+False
+
+NeetCode 150 category: Trees

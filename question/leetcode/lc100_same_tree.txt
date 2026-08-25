@@ -1,0 +1,28 @@
+lc100_same_tree
+Based on: LeetCode 100. Same Tree
+
+Assignment (paraphrased)
+Given the roots of two binary trees, return True if they are
+structurally identical and every corresponding node has the same
+value.
+
+Class/function signature
+class TreeNode:
+    def __init__(self, val=0, left=None, right=None): ...
+def is_same_tree(p: TreeNode | None, q: TreeNode | None) -> bool:
+
+Examples
+Input
+is_same_tree(tree from [1,2,3], tree from [1,2,3])
+Output
+True
+Input
+is_same_tree(tree from [1,2], tree from [1,None,2])
+Output
+False
+Input
+is_same_tree(tree from [1,2,1], tree from [1,1,2])
+Output
+False
+
+NeetCode 150 category: Trees

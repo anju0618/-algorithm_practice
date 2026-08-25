@@ -1,0 +1,28 @@
+lc110_balanced_binary_tree
+Based on: LeetCode 110. Balanced Binary Tree
+
+Assignment (paraphrased)
+Given a binary tree, determine if it is height-balanced (for every
+node, the height difference between its left and right subtrees is at
+most 1).
+
+Class/function signature
+class TreeNode:
+    def __init__(self, val=0, left=None, right=None): ...
+def is_balanced(root: TreeNode | None) -> bool:
+
+Examples
+Input
+is_balanced(tree from [3,9,20,None,None,15,7])
+Output
+True
+Input
+is_balanced(tree from [1,2,2,3,3,None,None,4,4])
+Output
+False
+Input
+is_balanced(tree from [])
+Output
+True
+
+NeetCode 150 category: Trees
