@@ -1,0 +1,28 @@
+lc019_remove_nth_node_from_end_of_list
+Based on: LeetCode 19. Remove Nth Node From End of List
+
+Assignment (paraphrased)
+Given the head of a linked list, remove the nth node counting from the
+end of the list (1-indexed) and return the new head. Do it in a single
+pass.
+
+Class/function signature
+class ListNode:
+    def __init__(self, val=0, next=None): ...
+def remove_nth_from_end(head: ListNode | None, n: int) -> ListNode | None:
+
+Examples
+Input
+remove_nth_from_end(list from [1,2,3,4,5], 2) then read the list
+Output
+[1,2,3,5]
+Input
+remove_nth_from_end(list from [1], 1) then read the list
+Output
+[]
+Input
+remove_nth_from_end(list from [1,2], 1) then read the list
+Output
+[1]
+
+NeetCode 150 category: Linked List

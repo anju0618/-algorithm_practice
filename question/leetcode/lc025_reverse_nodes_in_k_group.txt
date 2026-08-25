@@ -1,0 +1,25 @@
+lc025_reverse_nodes_in_k_group
+Based on: LeetCode 25. Reverse Nodes in k-Group
+
+Assignment (paraphrased)
+Given the head of a linked list, reverse the nodes k at a time and
+return the new head. k is positive and at most the list length. If the
+remaining nodes at the end are fewer than k, leave them as they are.
+Only node links may change, not values.
+
+Class/function signature
+class ListNode:
+    def __init__(self, val=0, next=None): ...
+def reverse_k_group(head: ListNode | None, k: int) -> ListNode | None:
+
+Examples
+Input
+reverse_k_group(list from [1,2,3,4,5], 2) then read the list
+Output
+[2,1,4,3,5]
+Input
+reverse_k_group(list from [1,2,3,4,5], 3) then read the list
+Output
+[3,2,1,4,5]
+
+NeetCode 150 category: Linked List

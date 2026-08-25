@@ -1,0 +1,23 @@
+lc206_reverse_linked_list
+Based on: LeetCode 206. Reverse Linked List
+
+Assignment (paraphrased)
+Given the head of a singly linked list, reverse the list in place and
+return the new head.
+
+Class/function signature
+class ListNode:
+    def __init__(self, val=0, next=None): ...
+def reverse_list(head: ListNode | None) -> ListNode | None:
+
+Examples
+Input
+reverse_list(list from [1,2,3,4,5])
+Output
+list equal to [5,4,3,2,1]
+Input
+reverse_list(list from [])
+Output
+None
+
+NeetCode 150 category: Linked List

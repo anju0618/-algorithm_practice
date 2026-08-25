@@ -1,0 +1,22 @@
+lc138_copy_list_with_random_pointer
+Based on: LeetCode 138. Copy List with Random Pointer
+
+Assignment (paraphrased)
+Each node of a linked list has a next pointer and a random pointer
+(which may point to any node in the list, or be None). Return a deep
+copy of the list: same structure, but made of entirely new nodes.
+
+Class/function signature
+class Node:
+    def __init__(self, val, next=None, random=None): ...
+def copy_random_list(head: Node | None) -> Node | None:
+
+Examples
+Input
+a 3-node list where node0.random -> node2, node1.random -> node1,
+node2.random -> node0
+Output
+a deep copy with the same val/next/random structure, but no node
+shared with the original list
+
+NeetCode 150 category: Linked List

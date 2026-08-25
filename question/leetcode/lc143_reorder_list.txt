@@ -1,0 +1,24 @@
+lc143_reorder_list
+Based on: LeetCode 143. Reorder List
+
+Assignment (paraphrased)
+Given the head of a singly linked list L0 -> L1 -> ... -> Ln, reorder
+it in place to L0 -> Ln -> L1 -> Ln-1 -> L2 -> Ln-2 -> ... Only node
+links may change, not the values. Returns nothing (modifies in place).
+
+Class/function signature
+class ListNode:
+    def __init__(self, val=0, next=None): ...
+def reorder_list(head: ListNode) -> None:
+
+Examples
+Input
+reorder_list(list from [1,2,3,4]) then read the list
+Output
+[1,4,2,3]
+Input
+reorder_list(list from [1,2,3,4,5]) then read the list
+Output
+[1,5,2,4,3]
+
+NeetCode 150 category: Linked List

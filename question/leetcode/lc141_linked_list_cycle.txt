@@ -1,0 +1,23 @@
+lc141_linked_list_cycle
+Based on: LeetCode 141. Linked List Cycle
+
+Assignment (paraphrased)
+Given the head of a linked list, determine whether it contains a cycle
+(a node reachable again by following .next repeatedly).
+
+Class/function signature
+class ListNode:
+    def __init__(self, val=0, next=None): ...
+def has_cycle(head: ListNode | None) -> bool:
+
+Examples
+Input
+a linked list where the tail's next points back into the list
+Output
+True
+Input
+a linked list ending in None
+Output
+False
+
+NeetCode 150 category: Linked List
