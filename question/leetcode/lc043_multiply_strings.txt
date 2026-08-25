@@ -1,0 +1,21 @@
+lc043_multiply_strings
+Based on: LeetCode 43. Multiply Strings
+
+Assignment (paraphrased)
+Given two non-negative integers as strings, return their product as a
+string, without converting the whole input to a native int/BigInteger.
+
+Function signature
+def multiply(num1: str, num2: str) -> str:
+
+Examples
+Input
+multiply("2", "3")
+Output
+"6"
+Input
+multiply("123", "456")
+Output
+"56088"
+
+NeetCode 150 category: Math & Geometry

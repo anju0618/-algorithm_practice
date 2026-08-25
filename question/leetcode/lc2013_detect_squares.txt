@@ -1,0 +1,20 @@
+lc2013_detect_squares
+Based on: LeetCode 2013. Detect Squares
+
+Assignment (paraphrased)
+Design a class that ingests points from a stream (duplicates allowed)
+via add(point), and for a query point via count(point) returns the
+number of ways to pick 3 stored points that together with the query
+point form an axis-aligned square with positive area.
+
+Class/methods
+class DetectSquares:
+    def add(self, point: list[int]) -> None: ...
+    def count(self, point: list[int]) -> int: ...
+
+Examples
+Input (sequence of calls)
+add([3,10]); add([11,2]); add([3,2]); count([11,10]) -> 1;
+count([14,8]) -> 0; add([11,2]); count([11,10]) -> 2
+
+NeetCode 150 category: Math & Geometry

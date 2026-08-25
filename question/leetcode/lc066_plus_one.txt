@@ -1,0 +1,26 @@
+lc066_plus_one
+Based on: LeetCode 66. Plus One
+
+Assignment (paraphrased)
+A large non-negative integer is given as an array of its digits
+(most significant digit first, no leading zeros). Return the digits of
+the integer plus one.
+
+Function signature
+def plus_one(digits: list[int]) -> list[int]:
+
+Examples
+Input
+plus_one([1,2,3])
+Output
+[1,2,4]
+Input
+plus_one([4,3,2,1])
+Output
+[4,3,2,2]
+Input
+plus_one([9,9])
+Output
+[1,0,0]
+
+NeetCode 150 category: Math & Geometry
