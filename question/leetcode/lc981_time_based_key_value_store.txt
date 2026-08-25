@@ -1,0 +1,21 @@
+lc981_time_based_key_value_store
+Based on: LeetCode 981. Time Based Key-Value Store
+
+Assignment (paraphrased)
+Design a time-based key-value store: set(key, value, timestamp) stores
+a value for a key at a given timestamp (timestamps passed to set for
+the same key are strictly increasing), and get(key, timestamp) returns
+the value stored for key at the largest timestamp_prev <= timestamp. If
+none exists, return "".
+
+Class/methods
+class TimeMap:
+    def set(self, key: str, value: str, timestamp: int) -> None: ...
+    def get(self, key: str, timestamp: int) -> str: ...
+
+Examples
+Input (sequence of calls)
+set("foo","bar",1); get("foo",1) -> "bar"; get("foo",3) -> "bar";
+set("foo","bar2",4); get("foo",4) -> "bar2"; get("foo",5) -> "bar2"
+
+NeetCode 150 category: Binary Search

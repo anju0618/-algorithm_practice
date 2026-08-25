@@ -1,0 +1,26 @@
+lc033_search_in_rotated_sorted_array
+Based on: LeetCode 33. Search in Rotated Sorted Array
+
+Assignment (paraphrased)
+An ascending array of distinct integers was rotated at some unknown
+pivot. Given the rotated array and a target, return the index of
+target, or -1 if it's not present. Must run in O(log n) time.
+
+Function signature
+def search_rotated(nums: list[int], target: int) -> int:
+
+Examples
+Input
+search_rotated([4,5,6,7,0,1,2], 0)
+Output
+4
+Input
+search_rotated([4,5,6,7,0,1,2], 3)
+Output
+-1
+Input
+search_rotated([1], 0)
+Output
+-1
+
+NeetCode 150 category: Binary Search

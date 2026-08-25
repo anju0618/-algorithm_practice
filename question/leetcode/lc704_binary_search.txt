@@ -1,0 +1,22 @@
+lc704_binary_search
+Based on: LeetCode 704. Binary Search
+
+Assignment (paraphrased)
+Given an array of integers sorted in ascending order and a target
+value, return the index of target if it exists, otherwise -1. Must run
+in O(log n) time.
+
+Function signature
+def search(nums: list[int], target: int) -> int:
+
+Examples
+Input
+search([-1,0,3,5,9,12], 9)
+Output
+4
+Input
+search([-1,0,3,5,9,12], 2)
+Output
+-1
+
+NeetCode 150 category: Binary Search

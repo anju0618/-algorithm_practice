@@ -1,0 +1,23 @@
+lc074_search_a_2d_matrix
+Based on: LeetCode 74. Search a 2D Matrix
+
+Assignment (paraphrased)
+Given an m x n matrix where each row is sorted ascending and the first
+element of each row is greater than the last element of the previous
+row, return True if target is anywhere in the matrix. Must run in
+O(log(m*n)) time.
+
+Function signature
+def search_matrix(matrix: list[list[int]], target: int) -> bool:
+
+Examples
+Input
+search_matrix([[1,3,5,7],[10,11,16,20],[23,30,34,60]], 3)
+Output
+True
+Input
+search_matrix([[1,3,5,7],[10,11,16,20],[23,30,34,60]], 13)
+Output
+False
+
+NeetCode 150 category: Binary Search
