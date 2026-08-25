@@ -1,0 +1,22 @@
+lc323_number_of_connected_components
+Based on: LeetCode 323. Number of Connected Components in an
+Undirected Graph (premium-only problem; this is a paraphrase from
+general knowledge, not fetched from LeetCode's API since the official
+text is behind a paywall)
+
+Assignment (paraphrased)
+Given n nodes labeled 0..n-1 and a list of undirected edges, return
+the number of connected components in the graph.
+
+Function signature
+def count_components(n: int, edges: list[list[int]]) -> int:
+
+Examples
+Input
+count_components(5, [[0,1],[1,2],[3,4]])
+Output
+2
+Input
+count_components(5, [[0,1],[1,2],[2,3],[3,4]])
+Output
+1

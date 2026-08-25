@@ -1,0 +1,19 @@
+lc286_walls_and_gates
+Based on: LeetCode 286. Walls and Gates (premium-only problem; this is
+a paraphrase from general knowledge, not fetched from LeetCode's API
+since the official text is behind a paywall)
+
+Assignment (paraphrased)
+Given an m x n grid where -1 = wall, 0 = gate, and 2147483647
+(INF) = an empty room, fill each empty room in place with the
+distance to its nearest gate (4-directional steps). If a room cannot
+reach any gate, leave it as INF.
+
+Function signature
+def walls_and_gates(rooms: list[list[int]]) -> None:
+
+Examples
+Input
+walls_and_gates on a grid with one gate (0) and several INF rooms
+Output (in place)
+every reachable INF cell replaced by its shortest distance to a 0
