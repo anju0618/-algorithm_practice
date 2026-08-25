@@ -1,0 +1,22 @@
+lc695_max_area_of_island
+Based on: LeetCode 695. Max Area of Island
+
+Assignment (paraphrased)
+Given an m x n binary matrix, return the area (cell count) of the
+largest island (4-directionally connected group of 1s), or 0 if there
+is none.
+
+Function signature
+def max_area_of_island(grid: list[list[int]]) -> int:
+
+Examples
+Input
+max_area_of_island([[0,0,1,0],[0,1,1,0],[0,0,0,1]])
+Output
+3
+Input
+max_area_of_island([[0,0,0],[0,0,0]])
+Output
+0
+
+NeetCode 150 category: Graphs

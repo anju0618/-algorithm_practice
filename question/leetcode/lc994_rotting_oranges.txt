@@ -1,0 +1,27 @@
+lc994_rotting_oranges
+Based on: LeetCode 994. Rotting Oranges
+
+Assignment (paraphrased)
+Given a grid where 0=empty, 1=fresh orange, 2=rotten orange, each
+minute every fresh orange 4-directionally adjacent to a rotten one
+becomes rotten too. Return the minimum minutes until no fresh orange
+remains, or -1 if some fresh orange can never rot.
+
+Function signature
+def oranges_rotting(grid: list[list[int]]) -> int:
+
+Examples
+Input
+oranges_rotting([[2,1,1],[1,1,0],[0,1,1]])
+Output
+4
+Input
+oranges_rotting([[2,1,1],[0,1,1],[1,0,1]])
+Output
+-1
+Input
+oranges_rotting([[0,2]])
+Output
+0
+
+NeetCode 150 category: Graphs

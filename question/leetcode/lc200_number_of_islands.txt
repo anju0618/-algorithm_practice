@@ -1,0 +1,21 @@
+lc200_number_of_islands
+Based on: LeetCode 200. Number of Islands
+
+Assignment (paraphrased)
+Given an m x n grid of '1' (land) and '0' (water), return the number
+of islands (groups of horizontally/vertically connected land cells).
+
+Function signature
+def num_islands(grid: list[list[str]]) -> int:
+
+Examples
+Input
+num_islands([["1","1","1","1","0"],["1","1","0","1","0"],["1","1","0","0","0"],["0","0","0","0","0"]])
+Output
+1
+Input
+num_islands([["1","1","0","0","0"],["1","1","0","0","0"],["0","0","1","0","0"],["0","0","0","1","1"]])
+Output
+3
+
+NeetCode 150 category: Graphs

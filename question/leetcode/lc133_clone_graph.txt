@@ -1,0 +1,21 @@
+lc133_clone_graph
+Based on: LeetCode 133. Clone Graph
+
+Assignment (paraphrased)
+Given a reference node of a connected undirected graph (each node has
+a val and a list of neighbor references), return a deep copy of the
+whole graph.
+
+Class/function signature
+class Node:
+    def __init__(self, val=0, neighbors=None): ...
+def clone_graph(node: Node | None) -> Node | None:
+
+Examples
+Input
+a graph with nodes 1-2-3-4 forming a cycle (1-2, 2-3, 3-4, 4-1)
+Output
+a deep copy with the same val/neighbor structure, no node shared with
+the original
+
+NeetCode 150 category: Graphs
