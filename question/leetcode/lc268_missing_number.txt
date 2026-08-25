@@ -1,0 +1,25 @@
+lc268_missing_number
+Based on: LeetCode 268. Missing Number
+
+Assignment (paraphrased)
+Given an array containing n distinct numbers from the range [0, n],
+return the one number in that range missing from the array.
+
+Function signature
+def missing_number(nums: list[int]) -> int:
+
+Examples
+Input
+missing_number([3,0,1])
+Output
+2
+Input
+missing_number([0,1])
+Output
+2
+Input
+missing_number([9,6,4,2,3,5,7,0,1])
+Output
+8
+
+NeetCode 150 category: Bit Manipulation

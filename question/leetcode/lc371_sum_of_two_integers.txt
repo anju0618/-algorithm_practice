@@ -1,0 +1,21 @@
+lc371_sum_of_two_integers
+Based on: LeetCode 371. Sum of Two Integers
+
+Assignment (paraphrased)
+Given two integers a and b, return their sum without using the + or -
+operators (use bitwise operations instead).
+
+Function signature
+def get_sum(a: int, b: int) -> int:
+
+Examples
+Input
+get_sum(1, 2)
+Output
+3
+Input
+get_sum(2, 3)
+Output
+5
+
+NeetCode 150 category: Bit Manipulation

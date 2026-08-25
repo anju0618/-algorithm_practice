@@ -28,10 +28,16 @@ curriculum.
   `leetcode/`, with each exam question file cross-referencing which
   LeetCode problem it's likely adapted from (see the mapping table
   below).
-- On top of that, this repo is being extended with the **NeetCode
-  150** list, worked the same way (no banned built-ins), on the
-  assumption that Rank 5/6 follows the same "reskinned LeetCode"
-  pattern as Rank 3/4.
+- On top of that, `leetcode/` also includes the full **NeetCode 150**
+  list (all 150 problems, minus the 7 that already overlapped with the
+  exam3/4 mapping above), worked the same way (no banned built-ins), on
+  the assumption that Rank 5/6 follows the same "reskinned LeetCode"
+  pattern as Rank 3/4. 7 of those 150 are premium-only LeetCode
+  problems (Encode and Decode Strings, Walls and Gates, Graph Valid
+  Tree, Number of Connected Components, Alien Dictionary, Meeting
+  Rooms, Meeting Rooms II) — their `question/` files are written from
+  general knowledge rather than fetched from LeetCode's API, since the
+  official text is paywalled.
 
 ### Directory layout
 
@@ -139,7 +145,7 @@ real problem number was found — those aren't guessed or invented.
 
 - 自分の`exam_rank03_practice-python-`と`42_exam_rank04_simulator_python`にある問題を、本番のexamと同じ制約（`sorted()`/`.sort()`/`set()`/`heapq`/`Counter`/`deque`全面禁止）で解き直したもの。
 - exam3/exam4の問題は実態としてLeetCodeの有名問題をリネーム・軽い改変したものであることが多いため、元ネタと思われるLeetCode問題を`leetcode/`に別途収録し、各exam問題のquestionファイルからどのLeetCode問題に対応するかを参照できるようにしてある（下の対応表を参照）。
-- それに加えて、Rank5/6もexam3/4と同じ「LeetCodeのリネーム」パターンを踏襲している可能性が高いという想定のもと、**NeetCode 150**のリストも同じ方式（禁止built-inなし）で拡張中。
+- それに加えて、Rank5/6もexam3/4と同じ「LeetCodeのリネーム」パターンを踏襲している可能性が高いという想定のもと、`leetcode/`には**NeetCode 150の全150問**（exam3/4対応表と重複する7問を除く）も同じ方式（禁止built-inなし）で収録済み。うち7問（Encode and Decode Strings, Walls and Gates, Graph Valid Tree, Number of Connected Components, Alien Dictionary, Meeting Rooms, Meeting Rooms II）はLeetCode Premium限定問題のため、APIから取得した公式問題文ではなく一般知識に基づくパラフレーズで書いてある。
 
 ### ディレクトリ構成
 
