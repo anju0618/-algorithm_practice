@@ -1,0 +1,23 @@
+lc1584_min_cost_to_connect_all_points
+Based on: LeetCode 1584. Min Cost to Connect All Points
+
+Assignment (paraphrased)
+Given 2D points, the cost between two points is their Manhattan
+distance. Return the minimum total cost to connect all points so that
+there is exactly one path between any two points (a minimum spanning
+tree).
+
+Function signature
+def min_cost_connect_points(points: list[list[int]]) -> int:
+
+Examples
+Input
+min_cost_connect_points([[0,0],[2,2],[3,10],[5,2],[7,0]])
+Output
+20
+Input
+min_cost_connect_points([[3,12],[-2,5],[-4,1]])
+Output
+18
+
+NeetCode 150 category: Advanced Graphs

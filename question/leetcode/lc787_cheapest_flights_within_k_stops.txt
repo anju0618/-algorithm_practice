@@ -1,0 +1,22 @@
+lc787_cheapest_flights_within_k_stops
+Based on: LeetCode 787. Cheapest Flights Within K Stops
+
+Assignment (paraphrased)
+Given n cities and directed flights[i] = [from, to, price], find the
+cheapest price from src to dst using at most k stops (k+1 flights).
+Return -1 if no such route exists.
+
+Function signature
+def find_cheapest_price(n: int, flights: list[list[int]], src: int, dst: int, k: int) -> int:
+
+Examples
+Input
+find_cheapest_price(4, [[0,1,100],[1,2,100],[2,0,100],[1,3,600],[2,3,200]], 0, 3, 1)
+Output
+700
+Input
+find_cheapest_price(3, [[0,1,100],[1,2,100],[0,2,500]], 0, 2, 1)
+Output
+200
+
+NeetCode 150 category: Advanced Graphs

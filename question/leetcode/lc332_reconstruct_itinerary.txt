@@ -1,0 +1,22 @@
+lc332_reconstruct_itinerary
+Based on: LeetCode 332. Reconstruct Itinerary
+
+Assignment (paraphrased)
+Given airline tickets [from, to], reconstruct the itinerary starting
+from "JFK" using every ticket exactly once. If multiple valid
+itineraries exist, return the lexicographically smallest one.
+
+Function signature
+def find_itinerary(tickets: list[list[str]]) -> list[str]:
+
+Examples
+Input
+find_itinerary([["MUC","LHR"],["JFK","MUC"],["SFO","SJC"],["LHR","SFO"]])
+Output
+["JFK","MUC","LHR","SFO","SJC"]
+Input
+find_itinerary([["JFK","SFO"],["JFK","ATL"],["SFO","ATL"],["ATL","JFK"],["ATL","SFO"]])
+Output
+["JFK","ATL","JFK","SFO","ATL","SFO"]
+
+NeetCode 150 category: Advanced Graphs
