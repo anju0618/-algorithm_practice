@@ -1,0 +1,26 @@
+lc001_two_sum
+Based on: LeetCode 1. Two Sum
+
+Assignment (paraphrased)
+Given an array of integers and a target, return the indices of the two
+numbers that add up to target. Exactly one valid answer exists, and the
+same element cannot be used twice.
+
+Function signature
+def two_sum(nums: list[int], target: int) -> list[int]:
+
+Examples
+Input
+two_sum([2,7,11,15], 9)
+Output
+[0,1]
+Input
+two_sum([3,2,4], 6)
+Output
+[1,2]
+Input
+two_sum([3,3], 6)
+Output
+[0,1]
+
+NeetCode 150 category: Arrays & Hashing

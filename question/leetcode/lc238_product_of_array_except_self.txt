@@ -1,0 +1,22 @@
+lc238_product_of_array_except_self
+Based on: LeetCode 238. Product of Array Except Self
+
+Assignment (paraphrased)
+Given an integer array, return an array where each element is the
+product of all the other elements (not itself). Must run in O(n) time
+without using division.
+
+Function signature
+def product_except_self(nums: list[int]) -> list[int]:
+
+Examples
+Input
+product_except_self([1,2,3,4])
+Output
+[24,12,8,6]
+Input
+product_except_self([-1,1,0,-3,3])
+Output
+[0,0,9,0,0]
+
+NeetCode 150 category: Arrays & Hashing

@@ -1,0 +1,44 @@
+lc036_valid_sudoku
+Based on: LeetCode 36. Valid Sudoku
+
+Assignment (paraphrased)
+Given a 9x9 Sudoku board (partially filled, '.' for empty cells),
+determine whether the filled cells make it valid so far: each row,
+each column, and each of the nine 3x3 sub-boxes must not contain the
+same digit (1-9) twice. The board does not need to be solvable, only
+consistent with these rules.
+
+Function signature
+def is_valid_sudoku(board: list[list[str]]) -> bool:
+
+Examples
+Input
+is_valid_sudoku([
+  ["5","3",".",".","7",".",".",".","."],
+  ["6",".",".","1","9","5",".",".","."],
+  [".","9","8",".",".",".",".","6","."],
+  ["8",".",".",".","6",".",".",".","3"],
+  ["4",".",".","8",".","3",".",".","1"],
+  ["7",".",".",".","2",".",".",".","6"],
+  [".","6",".",".",".",".","2","8","."],
+  [".",".",".","4","1","9",".",".","5"],
+  [".",".",".",".","8",".",".","7","9"],
+])
+Output
+True
+Input
+is_valid_sudoku([
+  ["8","3",".",".","7",".",".",".","."],
+  ["6",".",".","1","9","5",".",".","."],
+  [".","9","8",".",".",".",".","6","."],
+  ["8",".",".",".","6",".",".",".","3"],
+  ["4",".",".","8",".","3",".",".","1"],
+  ["7",".",".",".","2",".",".",".","6"],
+  [".","6",".",".",".",".","2","8","."],
+  [".",".",".","4","1","9",".",".","5"],
+  [".",".",".",".","8",".",".","7","9"],
+])
+Output
+False
+
+NeetCode 150 category: Arrays & Hashing

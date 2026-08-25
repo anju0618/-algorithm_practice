@@ -1,0 +1,31 @@
+lc271_encode_and_decode_strings
+Based on: LeetCode 271. Encode and Decode Strings (premium-only problem;
+this is a paraphrase from general knowledge, not fetched from LeetCode's
+API since the official text is behind a paywall)
+
+Assignment (paraphrased)
+Design an algorithm to encode a list of strings into a single string,
+and a matching decode function that turns that single string back into
+the original list of strings. Strings may contain any characters
+(including the delimiter you choose to use), so a naive
+join-with-a-separator approach is not safe.
+
+Function signatures
+def encode(strs: list[str]) -> str:
+def decode(s: str) -> list[str]:
+
+Examples
+Input
+decode(encode(["lint","code","love","you"]))
+Output
+["lint","code","love","you"]
+Input
+decode(encode(["we","say",":","yes"]))
+Output
+["we","say",":","yes"]
+Input
+decode(encode([]))
+Output
+[]
+
+NeetCode 150 category: Arrays & Hashing

@@ -1,0 +1,26 @@
+lc049_group_anagrams
+Based on: LeetCode 49. Group Anagrams
+
+Assignment (paraphrased)
+Given an array of strings, group the anagrams together (strings made of
+exactly the same letters, any order). Return the groups in any order,
+and the strings within each group in any order.
+
+Function signature
+def group_anagrams(strs: list[str]) -> list[list[str]]:
+
+Examples
+Input
+group_anagrams(["eat","tea","tan","ate","nat","bat"])
+Output (one valid grouping; order of groups/items doesn't matter)
+[["bat"],["nat","tan"],["ate","eat","tea"]]
+Input
+group_anagrams([""])
+Output
+[[""]]
+Input
+group_anagrams(["a"])
+Output
+[["a"]]
+
+NeetCode 150 category: Arrays & Hashing
