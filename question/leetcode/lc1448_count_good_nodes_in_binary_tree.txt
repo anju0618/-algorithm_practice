@@ -1,0 +1,23 @@
+lc1448_count_good_nodes_in_binary_tree
+Based on: LeetCode 1448. Count Good Nodes in Binary Tree
+
+Assignment (paraphrased)
+Given a binary tree, a node X is "good" if no node on the path from
+root to X has a value greater than X. Return the count of good nodes.
+
+Class/function signature
+class TreeNode:
+    def __init__(self, val=0, left=None, right=None): ...
+def good_nodes(root: TreeNode | None) -> int:
+
+Examples
+Input
+good_nodes(tree from [3,1,4,3,None,1,5])
+Output
+4
+Input
+good_nodes(tree from [3,3,None,4,2])
+Output
+3
+
+NeetCode 150 category: Trees

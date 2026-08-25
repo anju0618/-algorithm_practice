@@ -1,0 +1,24 @@
+lc235_lowest_common_ancestor_of_a_bst
+Based on: LeetCode 235. Lowest Common Ancestor of a Binary Search Tree
+
+Assignment (paraphrased)
+Given a binary search tree and two nodes p and q that exist in it,
+return their lowest common ancestor (the deepest node that has both as
+descendants; a node counts as its own descendant).
+
+Class/function signature
+class TreeNode:
+    def __init__(self, val=0, left=None, right=None): ...
+def lowest_common_ancestor(root: TreeNode, p: TreeNode, q: TreeNode) -> TreeNode:
+
+Examples
+Input
+root = tree from [6,2,8,0,4,7,9,None,None,3,5], p = node(2), q = node(8)
+Output
+node(6)
+Input
+same root, p = node(2), q = node(4)
+Output
+node(2)
+
+NeetCode 150 category: Trees

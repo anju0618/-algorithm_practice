@@ -1,0 +1,23 @@
+lc230_kth_smallest_element_in_a_bst
+Based on: LeetCode 230. Kth Smallest Element in a BST
+
+Assignment (paraphrased)
+Given the root of a binary search tree and an integer k, return the
+kth smallest value (1-indexed) among all node values.
+
+Class/function signature
+class TreeNode:
+    def __init__(self, val=0, left=None, right=None): ...
+def kth_smallest(root: TreeNode, k: int) -> int:
+
+Examples
+Input
+kth_smallest(tree from [3,1,4,None,2], 1)
+Output
+1
+Input
+kth_smallest(tree from [5,3,6,2,4,None,None,1], 3)
+Output
+3
+
+NeetCode 150 category: Trees

@@ -1,0 +1,28 @@
+lc102_binary_tree_level_order_traversal
+Based on: LeetCode 102. Binary Tree Level Order Traversal
+
+Assignment (paraphrased)
+Given the root of a binary tree, return the level-order traversal of
+its node values as a list of lists (one list per depth level, left to
+right).
+
+Class/function signature
+class TreeNode:
+    def __init__(self, val=0, left=None, right=None): ...
+def level_order(root: TreeNode | None) -> list[list[int]]:
+
+Examples
+Input
+level_order(tree from [3,9,20,None,None,15,7])
+Output
+[[3],[9,20],[15,7]]
+Input
+level_order(tree from [1])
+Output
+[[1]]
+Input
+level_order(tree from [])
+Output
+[]
+
+NeetCode 150 category: Trees
