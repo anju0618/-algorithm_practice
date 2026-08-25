@@ -1,0 +1,22 @@
+lc253_meeting_rooms_ii
+Based on: LeetCode 253. Meeting Rooms II (premium-only problem; this is
+a paraphrase from general knowledge, not fetched from LeetCode's API
+since the official text is behind a paywall)
+
+Assignment (paraphrased)
+Given meeting time intervals [start, end], return the minimum number
+of meeting rooms required so that no two overlapping meetings share a
+room.
+
+Function signature
+def min_meeting_rooms(intervals: list[list[int]]) -> int:
+
+Examples
+Input
+min_meeting_rooms([[0,30],[5,10],[15,20]])
+Output
+2
+Input
+min_meeting_rooms([[7,10],[2,4]])
+Output
+1

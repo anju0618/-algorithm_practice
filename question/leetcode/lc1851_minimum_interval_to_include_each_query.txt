@@ -1,0 +1,22 @@
+lc1851_minimum_interval_to_include_each_query
+Based on: LeetCode 1851. Minimum Interval to Include Each Query
+
+Assignment (paraphrased)
+Given intervals [left, right] (inclusive) and a list of queries,
+for each query return the size (right-left+1) of the smallest
+interval containing it, or -1 if none contains it.
+
+Function signature
+def min_interval(intervals: list[list[int]], queries: list[int]) -> list[int]:
+
+Examples
+Input
+min_interval([[1,4],[2,4],[3,6],[4,4]], [2,3,4,5])
+Output
+[3,3,1,4]
+Input
+min_interval([[2,3],[2,5],[1,8],[20,25]], [2,19,5,22])
+Output
+[2,-1,4,6]
+
+NeetCode 150 category: Intervals

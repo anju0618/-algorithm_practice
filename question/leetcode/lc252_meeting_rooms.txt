@@ -1,0 +1,22 @@
+lc252_meeting_rooms
+Based on: LeetCode 252. Meeting Rooms (premium-only problem; this is a
+paraphrase from general knowledge, not fetched from LeetCode's API
+since the official text is behind a paywall)
+
+Assignment (paraphrased)
+Given an array of meeting time intervals [start, end], determine
+whether a single person could attend all of them (i.e. no two meetings
+overlap).
+
+Function signature
+def can_attend_meetings(intervals: list[list[int]]) -> bool:
+
+Examples
+Input
+can_attend_meetings([[0,30],[5,10],[15,20]])
+Output
+False
+Input
+can_attend_meetings([[7,10],[2,4]])
+Output
+True
