@@ -1,0 +1,18 @@
+lc211_design_add_and_search_words_data_structure
+Based on: LeetCode 211. Design Add and Search Words Data Structure
+
+Assignment (paraphrased)
+Design a data structure supporting add_word(word) and search(word),
+where search may contain '.' as a wildcard matching any single letter.
+
+Class/methods
+class WordDictionary:
+    def add_word(self, word: str) -> None: ...
+    def search(self, word: str) -> bool: ...
+
+Examples
+Input (sequence of calls)
+add_word("bad"); add_word("dad"); add_word("mad"); search("pad") -> False;
+search("bad") -> True; search(".ad") -> True; search("b..") -> True
+
+NeetCode 150 category: Tries

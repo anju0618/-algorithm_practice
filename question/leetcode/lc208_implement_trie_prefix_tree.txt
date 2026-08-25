@@ -1,0 +1,19 @@
+lc208_implement_trie_prefix_tree
+Based on: LeetCode 208. Implement Trie (Prefix Tree)
+
+Assignment (paraphrased)
+Implement a trie with insert, search (exact word match), and
+starts_with (prefix match) operations.
+
+Class/methods
+class Trie:
+    def insert(self, word: str) -> None: ...
+    def search(self, word: str) -> bool: ...
+    def starts_with(self, prefix: str) -> bool: ...
+
+Examples
+Input (sequence of calls)
+insert("apple"); search("apple") -> True; search("app") -> False;
+starts_with("app") -> True; insert("app"); search("app") -> True
+
+NeetCode 150 category: Tries
