@@ -1,0 +1,22 @@
+lc846_hand_of_straights
+Based on: LeetCode 846. Hand of Straights
+
+Assignment (paraphrased)
+Given an array of card values and a group_size, return True if the
+cards can be rearranged into groups of exactly group_size consecutive
+values each.
+
+Function signature
+def is_n_straight_hand(hand: list[int], group_size: int) -> bool:
+
+Examples
+Input
+is_n_straight_hand([1,2,3,6,2,3,4,7,8], 3)
+Output
+True
+Input
+is_n_straight_hand([1,2,3,4,5], 4)
+Output
+False
+
+NeetCode 150 category: Greedy

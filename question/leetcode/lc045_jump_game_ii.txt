@@ -1,0 +1,22 @@
+lc045_jump_game_ii
+Based on: LeetCode 45. Jump Game II
+
+Assignment (paraphrased)
+Starting at index 0, nums[i] is the maximum jump length from index i.
+Return the minimum number of jumps needed to reach the last index (the
+input is guaranteed reachable).
+
+Function signature
+def jump(nums: list[int]) -> int:
+
+Examples
+Input
+jump([2,3,1,1,4])
+Output
+2
+Input
+jump([2,3,0,1,4])
+Output
+2
+
+NeetCode 150 category: Greedy

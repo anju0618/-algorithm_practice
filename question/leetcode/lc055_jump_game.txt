@@ -1,0 +1,21 @@
+lc055_jump_game
+Based on: LeetCode 55. Jump Game
+
+Assignment (paraphrased)
+Starting at index 0, nums[i] is the maximum jump length from index i.
+Return True if the last index is reachable.
+
+Function signature
+def can_jump(nums: list[int]) -> bool:
+
+Examples
+Input
+can_jump([2,3,1,1,4])
+Output
+True
+Input
+can_jump([3,2,1,0,4])
+Output
+False
+
+NeetCode 150 category: Greedy

@@ -1,0 +1,24 @@
+lc134_gas_station
+Based on: LeetCode 134. Gas Station
+
+Assignment (paraphrased)
+n gas stations sit on a circular route. gas[i] is the fuel available
+at station i, cost[i] the fuel needed to travel from station i to
+station i+1. Starting with an empty tank at some station, return the
+starting index that lets you complete the full circuit, or -1 if none
+exists (the solution, if it exists, is unique).
+
+Function signature
+def can_complete_circuit(gas: list[int], cost: list[int]) -> int:
+
+Examples
+Input
+can_complete_circuit([1,2,3,4,5], [3,4,5,1,2])
+Output
+3
+Input
+can_complete_circuit([2,3,4], [3,4,3])
+Output
+-1
+
+NeetCode 150 category: Greedy
