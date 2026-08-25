@@ -1,0 +1,22 @@
+lc763_partition_labels
+Based on: LeetCode 763. Partition Labels
+
+Assignment (paraphrased)
+Given a string, partition it into as many parts as possible so that
+each letter appears in at most one part (parts must be contiguous and
+concatenate back to s). Return the list of part sizes.
+
+Function signature
+def partition_labels(s: str) -> list[int]:
+
+Examples
+Input
+partition_labels("ababcbacadefegdehijhklij")
+Output
+[9,7,8]
+Input
+partition_labels("eccbbbbdec")
+Output
+[10]
+
+NeetCode 150 category: Greedy

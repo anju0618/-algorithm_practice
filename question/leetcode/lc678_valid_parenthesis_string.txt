@@ -1,0 +1,26 @@
+lc678_valid_parenthesis_string
+Based on: LeetCode 678. Valid Parenthesis String
+
+Assignment (paraphrased)
+Given a string containing only '(', ')', and '*' (where '*' can act as
+'(', ')', or an empty string), return True if the string can be
+interpreted as valid balanced parentheses.
+
+Function signature
+def check_valid_string(s: str) -> bool:
+
+Examples
+Input
+check_valid_string("()")
+Output
+True
+Input
+check_valid_string("(*)")
+Output
+True
+Input
+check_valid_string("(*))")
+Output
+True
+
+NeetCode 150 category: Greedy

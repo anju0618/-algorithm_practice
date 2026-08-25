@@ -1,0 +1,27 @@
+lc1899_merge_triplets_to_form_target_triplet
+Based on: LeetCode 1899. Merge Triplets to Form Target Triplet
+
+Assignment (paraphrased)
+Given triplets (each [a,b,c]) and a target [x,y,z], you may repeatedly
+replace any triplet with the element-wise max of itself and another
+triplet. Return True if you can make target appear as one of the
+triplets.
+
+Function signature
+def merge_triplets(triplets: list[list[int]], target: list[int]) -> bool:
+
+Examples
+Input
+merge_triplets([[2,5,3],[1,8,4],[1,7,5]], [2,7,5])
+Output
+True
+Input
+merge_triplets([[3,4,5],[4,5,6]], [3,2,5])
+Output
+False
+Input
+merge_triplets([[2,5,3],[2,3,4],[1,2,5],[5,2,3]], [5,5,5])
+Output
+True
+
+NeetCode 150 category: Greedy
