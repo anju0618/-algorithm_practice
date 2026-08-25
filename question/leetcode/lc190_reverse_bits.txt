@@ -1,0 +1,21 @@
+lc190_reverse_bits
+Based on: LeetCode 190. Reverse Bits
+
+Assignment (paraphrased)
+Given a 32-bit unsigned integer n, return the integer obtained by
+reversing the order of its bits.
+
+Function signature
+def reverse_bits(n: int) -> int:
+
+Examples
+Input
+reverse_bits(43261596)
+Output
+964176192
+Input
+reverse_bits(2147483644)
+Output
+1073741822
+
+NeetCode 150 category: Bit Manipulation

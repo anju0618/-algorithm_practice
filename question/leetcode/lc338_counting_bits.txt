@@ -1,0 +1,22 @@
+lc338_counting_bits
+Based on: LeetCode 338. Counting Bits
+
+Assignment (paraphrased)
+Given n, return an array ans of length n+1 where ans[i] is the number
+of set bits in i's binary representation, for every i from 0 to n.
+Do not use a built-in popcount function.
+
+Function signature
+def count_bits(n: int) -> list[int]:
+
+Examples
+Input
+count_bits(2)
+Output
+[0,1,1]
+Input
+count_bits(5)
+Output
+[0,1,1,2,1,2]
+
+NeetCode 150 category: Bit Manipulation

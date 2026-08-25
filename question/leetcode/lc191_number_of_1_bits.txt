@@ -1,0 +1,21 @@
+lc191_number_of_1_bits
+Based on: LeetCode 191. Number of 1 Bits
+
+Assignment (paraphrased)
+Given a positive integer n, return the number of set bits (1s) in its
+binary representation (Hamming weight).
+
+Function signature
+def hamming_weight(n: int) -> int:
+
+Examples
+Input
+hamming_weight(11)
+Output
+3
+Input
+hamming_weight(128)
+Output
+1
+
+NeetCode 150 category: Bit Manipulation
