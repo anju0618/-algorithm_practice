@@ -1,0 +1,18 @@
+lc130_surrounded_regions
+Based on: LeetCode 130. Surrounded Regions
+
+Assignment (paraphrased)
+Given an m x n board of 'X' and 'O', flip every 'O' that is NOT
+connected (4-directionally) to a border 'O' into 'X', in place. Border
+'O's, and any 'O' region touching one, stay 'O'.
+
+Function signature
+def solve(board: list[list[str]]) -> None:
+
+Examples
+Input
+solve on [["X","X","X","X"],["X","O","O","X"],["X","X","O","X"],["X","O","X","X"]]
+Output (board after the call)
+[["X","X","X","X"],["X","X","X","X"],["X","X","X","X"],["X","O","X","X"]]
+
+NeetCode 150 category: Graphs

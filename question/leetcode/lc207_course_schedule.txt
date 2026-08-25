@@ -1,0 +1,22 @@
+lc207_course_schedule
+Based on: LeetCode 207. Course Schedule
+
+Assignment (paraphrased)
+There are num_courses courses (0 to num_courses-1). prerequisites[i] =
+[a, b] means course a requires course b first. Return True if all
+courses can be finished (i.e. no circular dependency).
+
+Function signature
+def can_finish(num_courses: int, prerequisites: list[list[int]]) -> bool:
+
+Examples
+Input
+can_finish(2, [[1,0]])
+Output
+True
+Input
+can_finish(2, [[1,0],[0,1]])
+Output
+False
+
+NeetCode 150 category: Graphs
