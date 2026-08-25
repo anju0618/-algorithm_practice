@@ -1,0 +1,23 @@
+lc621_task_scheduler
+Based on: LeetCode 621. Task Scheduler
+
+Assignment (paraphrased)
+Given an array of CPU tasks (letters A-Z) and a cooldown n, the same
+task letter must be separated by at least n intervals (idle slots
+allowed). Return the minimum number of intervals needed to finish all
+tasks.
+
+Function signature
+def least_interval(tasks: list[str], n: int) -> int:
+
+Examples
+Input
+least_interval(["A","A","A","B","B","B"], 2)
+Output
+8
+Input
+least_interval(["A","C","A","B","D","B"], 1)
+Output
+6
+
+NeetCode 150 category: Heap / Priority Queue

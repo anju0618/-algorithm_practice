@@ -1,0 +1,19 @@
+lc703_kth_largest_element_in_a_stream
+Based on: LeetCode 703. Kth Largest Element in a Stream
+
+Assignment (paraphrased)
+Design a class that keeps track of the kth largest element in a
+growing stream of numbers. It is initialized with k and an initial
+array; add(val) inserts val into the stream and returns the current
+kth largest element.
+
+Class/methods
+class KthLargest:
+    def __init__(self, k: int, nums: list[int]): ...
+    def add(self, val: int) -> int: ...
+
+Examples
+Input (k=3, nums=[4,5,8,2])
+add(3) -> 4; add(5) -> 5; add(10) -> 5; add(9) -> 8; add(4) -> 8
+
+NeetCode 150 category: Heap / Priority Queue

@@ -1,0 +1,23 @@
+lc1046_last_stone_weight
+Based on: LeetCode 1046. Last Stone Weight
+
+Assignment (paraphrased)
+Given stone weights, repeatedly smash the two heaviest stones together
+(x <= y): if equal, both are destroyed; otherwise the lighter is
+destroyed and the heavier becomes y - x. Return the weight of the
+final remaining stone, or 0 if none remain.
+
+Function signature
+def last_stone_weight(stones: list[int]) -> int:
+
+Examples
+Input
+last_stone_weight([2,7,4,1,8,1])
+Output
+1
+Input
+last_stone_weight([1])
+Output
+1
+
+NeetCode 150 category: Heap / Priority Queue

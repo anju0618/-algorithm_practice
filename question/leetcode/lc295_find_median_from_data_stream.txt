@@ -1,0 +1,18 @@
+lc295_find_median_from_data_stream
+Based on: LeetCode 295. Find Median from Data Stream
+
+Assignment (paraphrased)
+Design a class that supports adding integers from a stream one at a
+time and querying the median of all numbers added so far at any point.
+
+Class/methods
+class MedianFinder:
+    def add_num(self, num: int) -> None: ...
+    def find_median(self) -> float: ...
+
+Examples
+Input (sequence of calls)
+add_num(1); add_num(2); find_median() -> 1.5; add_num(3);
+find_median() -> 2.0
+
+NeetCode 150 category: Heap / Priority Queue
