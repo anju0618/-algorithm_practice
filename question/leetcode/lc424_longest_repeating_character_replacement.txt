@@ -1,0 +1,23 @@
+lc424_longest_repeating_character_replacement
+Based on: LeetCode 424. Longest Repeating Character Replacement
+
+Assignment (paraphrased)
+Given a string s and an integer k, you may replace up to k characters
+of the string with any other uppercase English letter. Return the
+length of the longest substring you can make consist of a single
+repeated letter after performing at most k replacements.
+
+Function signature
+def character_replacement(s: str, k: int) -> int:
+
+Examples
+Input
+character_replacement("ABAB", 2)
+Output
+4
+Input
+character_replacement("AABABBA", 1)
+Output
+4
+
+NeetCode 150 category: Sliding Window

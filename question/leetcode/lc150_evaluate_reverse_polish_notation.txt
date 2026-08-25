@@ -1,0 +1,26 @@
+lc150_evaluate_reverse_polish_notation
+Based on: LeetCode 150. Evaluate Reverse Polish Notation
+
+Assignment (paraphrased)
+Given a list of tokens representing an arithmetic expression in
+Reverse Polish Notation (postfix), evaluate it and return the integer
+result. Operators are +, -, *, /; division truncates toward zero.
+
+Function signature
+def eval_rpn(tokens: list[str]) -> int:
+
+Examples
+Input
+eval_rpn(["2","1","+","3","*"])
+Output
+9
+Input
+eval_rpn(["4","13","5","/","+"])
+Output
+6
+Input
+eval_rpn(["10","6","9","3","+","-11","*","/","*","17","+","5","+"])
+Output
+22
+
+NeetCode 150 category: Stack

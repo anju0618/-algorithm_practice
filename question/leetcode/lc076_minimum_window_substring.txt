@@ -1,0 +1,27 @@
+lc076_minimum_window_substring
+Based on: LeetCode 76. Minimum Window Substring
+
+Assignment (paraphrased)
+Given strings s and t, return the smallest substring of s that contains
+every character of t (including repeats, i.e. counting duplicates). If
+no such substring exists, return "". The answer is guaranteed unique
+when it exists.
+
+Function signature
+def min_window(s: str, t: str) -> str:
+
+Examples
+Input
+min_window("ADOBECODEBANC", "ABC")
+Output
+"BANC"
+Input
+min_window("a", "a")
+Output
+"a"
+Input
+min_window("a", "aa")
+Output
+""
+
+NeetCode 150 category: Sliding Window

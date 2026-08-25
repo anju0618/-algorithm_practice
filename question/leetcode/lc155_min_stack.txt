@@ -1,0 +1,19 @@
+lc155_min_stack
+Based on: LeetCode 155. Min Stack
+
+Assignment (paraphrased)
+Design a stack that supports push, pop, top, and retrieving the
+minimum element, all in O(1) time.
+
+Class/methods
+class MinStack:
+    def push(self, value: int) -> None: ...
+    def pop(self) -> None: ...
+    def top(self) -> int: ...
+    def get_min(self) -> int: ...
+
+Examples
+Input (sequence of calls)
+push(-2); push(0); push(-3); get_min() -> -3; pop(); top() -> 0; get_min() -> -2
+
+NeetCode 150 category: Stack

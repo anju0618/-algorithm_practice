@@ -1,0 +1,27 @@
+lc015_3sum
+Based on: LeetCode 15. 3Sum
+
+Assignment (paraphrased)
+Given an integer array, return all unique triplets [nums[i], nums[j],
+nums[k]] (i, j, k all different indices) that sum to 0. The result must
+not contain duplicate triplets; order of triplets and order within a
+triplet doesn't matter.
+
+Function signature
+def three_sum(nums: list[int]) -> list[list[int]]:
+
+Examples
+Input
+three_sum([-1,0,1,2,-1,-4])
+Output (as a set of triplets, order doesn't matter)
+[[-1,-1,2],[-1,0,1]]
+Input
+three_sum([0,1,1])
+Output
+[]
+Input
+three_sum([0,0,0])
+Output
+[[0,0,0]]
+
+NeetCode 150 category: Two Pointers

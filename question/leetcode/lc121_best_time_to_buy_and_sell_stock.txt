@@ -1,0 +1,22 @@
+lc121_best_time_to_buy_and_sell_stock
+Based on: LeetCode 121. Best Time to Buy and Sell Stock
+
+Assignment (paraphrased)
+Given an array where prices[i] is a stock's price on day i, choose a
+single day to buy and a later day to sell to maximize profit. Return
+the maximum achievable profit, or 0 if no profit is possible.
+
+Function signature
+def max_profit(prices: list[int]) -> int:
+
+Examples
+Input
+max_profit([7,1,5,3,6,4])
+Output
+5
+Input
+max_profit([7,6,4,3,1])
+Output
+0
+
+NeetCode 150 category: Sliding Window

@@ -1,0 +1,25 @@
+lc003_longest_substring_without_repeating
+Based on: LeetCode 3. Longest Substring Without Repeating Characters
+
+Assignment (paraphrased)
+Given a string, find the length of the longest substring that has no
+repeated characters.
+
+Function signature
+def length_of_longest_substring(s: str) -> int:
+
+Examples
+Input
+length_of_longest_substring("abcabcbb")
+Output
+3
+Input
+length_of_longest_substring("bbbbb")
+Output
+1
+Input
+length_of_longest_substring("pwwkew")
+Output
+3
+
+NeetCode 150 category: Sliding Window

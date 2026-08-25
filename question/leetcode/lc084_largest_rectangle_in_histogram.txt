@@ -1,0 +1,22 @@
+lc084_largest_rectangle_in_histogram
+Based on: LeetCode 84. Largest Rectangle in Histogram
+
+Assignment (paraphrased)
+Given an array of bar heights (each bar has width 1) forming a
+histogram, return the area of the largest rectangle that fits entirely
+within the histogram.
+
+Function signature
+def largest_rectangle_area(heights: list[int]) -> int:
+
+Examples
+Input
+largest_rectangle_area([2,1,5,6,2,3])
+Output
+10
+Input
+largest_rectangle_area([2,4])
+Output
+4
+
+NeetCode 150 category: Stack

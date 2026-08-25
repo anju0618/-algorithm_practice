@@ -1,0 +1,21 @@
+lc567_permutation_in_string
+Based on: LeetCode 567. Permutation in String
+
+Assignment (paraphrased)
+Given two strings s1 and s2 (lowercase English letters), return True if
+s2 contains a contiguous substring that is a permutation of s1.
+
+Function signature
+def check_inclusion(s1: str, s2: str) -> bool:
+
+Examples
+Input
+check_inclusion("ab", "eidbaooo")
+Output
+True
+Input
+check_inclusion("ab", "eidboaoo")
+Output
+False
+
+NeetCode 150 category: Sliding Window
