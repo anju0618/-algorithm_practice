@@ -1,0 +1,21 @@
+lc115_distinct_subsequences
+Based on: LeetCode 115. Distinct Subsequences
+
+Assignment (paraphrased)
+Given strings s and t, return the number of distinct subsequences of s
+that equal t.
+
+Function signature
+def num_distinct(s: str, t: str) -> int:
+
+Examples
+Input
+num_distinct("rabbbit", "rabbit")
+Output
+3
+Input
+num_distinct("babgbag", "bag")
+Output
+5
+
+NeetCode 150 category: 2-D Dynamic Programming

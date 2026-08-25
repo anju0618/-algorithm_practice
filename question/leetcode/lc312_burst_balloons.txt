@@ -1,0 +1,23 @@
+lc312_burst_balloons
+Based on: LeetCode 312. Burst Balloons
+
+Assignment (paraphrased)
+Given n balloons with numbers on them, bursting balloon i earns
+nums[i-1] * nums[i] * nums[i+1] coins (treating out-of-bounds
+neighbors as 1). Return the maximum coins obtainable by bursting all
+balloons in some order.
+
+Function signature
+def max_coins(nums: list[int]) -> int:
+
+Examples
+Input
+max_coins([3,1,5,8])
+Output
+167
+Input
+max_coins([1,5])
+Output
+10
+
+NeetCode 150 category: 2-D Dynamic Programming

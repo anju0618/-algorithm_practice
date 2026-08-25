@@ -1,0 +1,26 @@
+lc097_interleaving_string
+Based on: LeetCode 97. Interleaving String
+
+Assignment (paraphrased)
+Given s1, s2, and s3, determine whether s3 can be formed by
+interleaving s1 and s2 (preserving the relative order of characters
+within each of s1 and s2).
+
+Function signature
+def is_interleave(s1: str, s2: str, s3: str) -> bool:
+
+Examples
+Input
+is_interleave("aabcc", "dbbca", "aadbbcbcac")
+Output
+True
+Input
+is_interleave("aabcc", "dbbca", "aadbbbaccc")
+Output
+False
+Input
+is_interleave("", "", "")
+Output
+True
+
+NeetCode 150 category: 2-D Dynamic Programming

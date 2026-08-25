@@ -1,0 +1,27 @@
+lc010_regular_expression_matching
+Based on: LeetCode 10. Regular Expression Matching
+
+Assignment (paraphrased)
+Implement regex matching for an input string s against a pattern p
+supporting '.' (matches any single character) and '*' (matches zero or
+more of the preceding element). The match must cover the entire
+string, not just a prefix.
+
+Function signature
+def is_match(s: str, p: str) -> bool:
+
+Examples
+Input
+is_match("aa", "a")
+Output
+False
+Input
+is_match("aa", "a*")
+Output
+True
+Input
+is_match("ab", ".*")
+Output
+True
+
+NeetCode 150 category: 2-D Dynamic Programming

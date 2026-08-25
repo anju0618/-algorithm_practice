@@ -1,0 +1,21 @@
+lc072_edit_distance
+Based on: LeetCode 72. Edit Distance
+
+Assignment (paraphrased)
+Given two words, return the minimum number of single-character insert,
+delete, or replace operations needed to turn word1 into word2.
+
+Function signature
+def min_distance(word1: str, word2: str) -> int:
+
+Examples
+Input
+min_distance("horse", "ros")
+Output
+3
+Input
+min_distance("intention", "execution")
+Output
+5
+
+NeetCode 150 category: 2-D Dynamic Programming

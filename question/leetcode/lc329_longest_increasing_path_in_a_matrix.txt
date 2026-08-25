@@ -1,0 +1,22 @@
+lc329_longest_increasing_path_in_a_matrix
+Based on: LeetCode 329. Longest Increasing Path in a Matrix
+
+Assignment (paraphrased)
+Given an m x n integer matrix, return the length of the longest
+strictly increasing path, moving only up/down/left/right (no
+diagonals, no wraparound).
+
+Function signature
+def longest_increasing_path(matrix: list[list[int]]) -> int:
+
+Examples
+Input
+longest_increasing_path([[9,9,4],[6,6,8],[2,1,1]])
+Output
+4
+Input
+longest_increasing_path([[1]])
+Output
+1
+
+NeetCode 150 category: 2-D Dynamic Programming
