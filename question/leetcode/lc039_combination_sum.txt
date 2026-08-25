@@ -1,0 +1,22 @@
+lc039_combination_sum
+Based on: LeetCode 39. Combination Sum
+
+Assignment (paraphrased)
+Given distinct integers candidates and a target, return all unique
+combinations where the chosen numbers sum to target. The same number
+may be reused any number of times. Order doesn't matter.
+
+Function signature
+def combination_sum(candidates: list[int], target: int) -> list[list[int]]:
+
+Examples
+Input
+combination_sum([2,3,6,7], 7)
+Output (order doesn't matter)
+[[2,2,3],[7]]
+Input
+combination_sum([2,3,5], 8)
+Output
+[[2,2,2,2],[2,3,3],[3,5]]
+
+NeetCode 150 category: Backtracking

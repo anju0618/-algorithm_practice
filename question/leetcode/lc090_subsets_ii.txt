@@ -1,0 +1,22 @@
+lc090_subsets_ii
+Based on: LeetCode 90. Subsets II
+
+Assignment (paraphrased)
+Given an integer array that may contain duplicates, return all
+possible subsets (the power set) with no duplicate subsets in the
+result. Order doesn't matter.
+
+Function signature
+def subsets_with_dup(nums: list[int]) -> list[list[int]]:
+
+Examples
+Input
+subsets_with_dup([1,2,2])
+Output (order doesn't matter)
+[[],[1],[1,2],[1,2,2],[2],[2,2]]
+Input
+subsets_with_dup([0])
+Output
+[[],[0]]
+
+NeetCode 150 category: Backtracking
