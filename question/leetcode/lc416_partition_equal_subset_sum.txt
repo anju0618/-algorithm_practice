@@ -1,0 +1,21 @@
+lc416_partition_equal_subset_sum
+Based on: LeetCode 416. Partition Equal Subset Sum
+
+Assignment (paraphrased)
+Given a positive-integer array, return True if it can be split into
+two subsets with equal sums.
+
+Function signature
+def can_partition(nums: list[int]) -> bool:
+
+Examples
+Input
+can_partition([1,5,11,5])
+Output
+True
+Input
+can_partition([1,2,3,5])
+Output
+False
+
+NeetCode 150 category: 1-D Dynamic Programming

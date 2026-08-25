@@ -1,0 +1,21 @@
+lc152_maximum_product_subarray
+Based on: LeetCode 152. Maximum Product Subarray
+
+Assignment (paraphrased)
+Given an integer array, find a contiguous subarray with the largest
+product and return that product.
+
+Function signature
+def max_product(nums: list[int]) -> int:
+
+Examples
+Input
+max_product([2,3,-2,4])
+Output
+6
+Input
+max_product([-2,0,-1])
+Output
+0
+
+NeetCode 150 category: 1-D Dynamic Programming

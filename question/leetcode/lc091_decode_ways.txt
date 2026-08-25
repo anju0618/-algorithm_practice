@@ -1,0 +1,26 @@
+lc091_decode_ways
+Based on: LeetCode 91. Decode Ways
+
+Assignment (paraphrased)
+A string of digits was encoded from letters via "1"->A ... "26"->Z.
+Given the digit string s, return the number of ways it could have been
+decoded. Leading-zero groups like "06" are invalid.
+
+Function signature
+def num_decodings(s: str) -> int:
+
+Examples
+Input
+num_decodings("12")
+Output
+2
+Input
+num_decodings("226")
+Output
+3
+Input
+num_decodings("06")
+Output
+0
+
+NeetCode 150 category: 1-D Dynamic Programming

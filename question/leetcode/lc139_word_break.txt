@@ -1,0 +1,26 @@
+lc139_word_break
+Based on: LeetCode 139. Word Break
+
+Assignment (paraphrased)
+Given a string s and a list of dictionary words, return True if s can
+be segmented into a sequence of one or more dictionary words (words
+may be reused).
+
+Function signature
+def word_break(s: str, word_dict: list[str]) -> bool:
+
+Examples
+Input
+word_break("leetcode", ["leet","code"])
+Output
+True
+Input
+word_break("applepenapple", ["apple","pen"])
+Output
+True
+Input
+word_break("catsandog", ["cats","dog","sand","and","cat"])
+Output
+False
+
+NeetCode 150 category: 1-D Dynamic Programming
