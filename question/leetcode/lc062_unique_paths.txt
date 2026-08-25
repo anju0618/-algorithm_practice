@@ -1,0 +1,22 @@
+lc062_unique_paths
+Based on: LeetCode 62. Unique Paths
+
+Assignment (paraphrased)
+A robot starts at the top-left of an m x n grid and can only move down
+or right. Return the number of distinct paths to reach the
+bottom-right corner.
+
+Function signature
+def unique_paths(m: int, n: int) -> int:
+
+Examples
+Input
+unique_paths(3, 7)
+Output
+28
+Input
+unique_paths(3, 2)
+Output
+3
+
+NeetCode 150 category: 2-D Dynamic Programming

@@ -1,0 +1,22 @@
+lc1143_longest_common_subsequence
+Based on: LeetCode 1143. Longest Common Subsequence
+
+Assignment (paraphrased)
+Given two strings, return the length of their longest common
+subsequence (not necessarily contiguous, order preserved), or 0 if
+they share none.
+
+Function signature
+def longest_common_subsequence(text1: str, text2: str) -> int:
+
+Examples
+Input
+longest_common_subsequence("abcde", "ace")
+Output
+3
+Input
+longest_common_subsequence("abc", "def")
+Output
+0
+
+NeetCode 150 category: 2-D Dynamic Programming

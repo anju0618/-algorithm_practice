@@ -1,0 +1,26 @@
+lc518_coin_change_ii
+Based on: LeetCode 518. Coin Change II
+
+Assignment (paraphrased)
+Given coin denominations and a target amount, return the number of
+distinct combinations that make up that amount (order doesn't matter,
+unlimited supply of each coin). Return 0 if impossible.
+
+Function signature
+def change(amount: int, coins: list[int]) -> int:
+
+Examples
+Input
+change(5, [1,2,5])
+Output
+4
+Input
+change(3, [2])
+Output
+0
+Input
+change(10, [10])
+Output
+1
+
+NeetCode 150 category: 2-D Dynamic Programming
