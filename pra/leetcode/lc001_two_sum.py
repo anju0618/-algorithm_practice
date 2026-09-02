@@ -1,6 +1,11 @@
 def two_sum(nums: list[int], target: int) -> list[int]:
-    # TODO: implement (one-pass hash map)
-    pass
+    res = []
+    for i in range(len(nums)):
+        j = i + 1
+        while j < len(nums):
+            if nums[i] + nums[j] == target:
+                return [i, j]
+            j += 1
 
 
 def check(label, actual, expected):
